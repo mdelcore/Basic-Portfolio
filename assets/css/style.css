@@ -1,0 +1,199 @@
+/*Color Pallete
+#4aaaa5 teal: headings and background
+#777777 regular font color
+#ffffff main header background
+#cccccc main header border
+#666666 footer background
+#ffffff main content background
+#dddddd main content border
+
+heading font: font-family: 'Georgia', Times, Times New Roman, serif;
+other fonts: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+
+
+/*Global Styles
+----------------------*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0;
+	background-image: url('../images/contemporary_china.png');
+	display: flex;
+  	flex-direction: column;
+}
+
+* {
+	margin: 0%;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 40px;
+	margin-left: 60px;
+	padding: 10px;
+	background-color: #4aaaa5;
+	float: left;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+	border-left: 3px color gray;
+}
+
+a:hover {
+	color: #4aaaa5;
+	text-decoration: none;
+}
+
+/*Header and Footer
+----------------------*/
+
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  color: white;
+  border-bottom: 3px solid #dddddd;
+  margin-bottom: 15px;
+}
+
+footer {
+  	clear: both;
+  	padding: 10px;
+  	background-color: #666666;
+  	text-align: center;
+  	margin-top: 50px;
+  	border-top: 6px solid #4aaaa5;
+  }
+
+
+/*Navigation
+----------------------*/
+#navigation {
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	font-size: 20px;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+
+
+/*Main Content
+----------------------*/
+#middle-content {
+	max-width: 960;
+	margin: 0 auto;
+}
+
+#middle {
+	float: left;
+	max-width: 650px;
+	margin-left: 50px;
+	padding: 20px;
+	border: 3px solid #dddddd;
+	background: white;
+}
+
+h2 {
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-bottom: 3px solid #dddddd;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+p {
+	text-orientation: wrap;
+	padding: 20px;
+	color: gray;
+}
+
+#connect {
+	float: right;
+	text-align: center;
+	border: 3px solid #dddddd;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	padding: 20px;
+	background: white;
+}
+
+.icons {
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.profile-image {
+	float: left;
+	border-radius: 10%;
+	max-width: 300px; 
+    max-height: 300px;
+    padding-right: 20px;
+}
+ 
+ /* Intake Form
+----------------------*/
+
+input[type=text] {
+    width: 650px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: gray;
+}
+
+
+
+/*Portfolio
+----------------------*/
+
+.hangman {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
