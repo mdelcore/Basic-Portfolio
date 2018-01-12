@@ -63,7 +63,6 @@ a:hover {
 /*Header and Footer
 ----------------------*/
 
-
 header {
   background-color: #ffffff;
   width: 100%;
@@ -90,7 +89,6 @@ footer {
 	margin-right: 60px;
 	font-size: 20px;
 	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 
@@ -102,17 +100,24 @@ footer {
 	margin: 0 auto;
 }
 
+.about {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
 #middle {
 	float: left;
 	max-width: 650px;
-	margin-left: 50px;
+	margin-left: 150px;
 	padding: 20px;
 	border: 3px solid #dddddd;
 	background: white;
 }
 
 h2 {
-	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-style: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #4aaaa5;
+	font-size: 25px;
 	border-bottom: 3px solid #dddddd;
 	margin-right: 20px;
 	margin-left: 20px;
@@ -129,7 +134,7 @@ p {
 	text-align: center;
 	border: 3px solid #dddddd;
 	margin-bottom: 20px;
-	margin-right: 50px;
+	margin-right: 150px;
 	padding: 20px;
 	background: white;
 }
@@ -148,13 +153,17 @@ p {
     padding-right: 20px;
 }
  
- /* Intake Form
+ /* Contact
 ----------------------*/
+.contact-page {
+	padding-top: 20px;
+	margin-left: 10px;
+}
 
 input[type=text] {
     width: 650px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 4px 2px;
     box-sizing: border-box;
 }
 
@@ -189,11 +198,31 @@ input[type=submit]:hover {
 /*Portfolio
 ----------------------*/
 
-.hangman {
-    background-color: #eee;
-    display: flex;
-    height: 180px;
-    margin: 5px;
-    width: 260px;
+.text {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 10px 25px;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
 }
 
+.boxes {
+    background-color: #cccccc;
+    width: 250px;
+    float:left;
+    margin: 25px;
+    height: 200px;
+    position: relative;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.portfolio-image {
+    width: 250px;
+    height: 200px;
+}
