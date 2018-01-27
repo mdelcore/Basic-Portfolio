@@ -19,6 +19,20 @@ other fonts: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
 	clear: both;
 }
 
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: #666666;
+}
 
 html, body {
   height: 100%;
@@ -43,7 +57,7 @@ body {
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 40px;
-	margin-left: 60px;
+	margin-left: 150px;
 	padding: 10px;
 	background-color: #4aaaa5;
 	float: left;
@@ -69,6 +83,7 @@ header {
   color: white;
   border-bottom: 3px solid #dddddd;
   margin-bottom: 15px;
+  margin-right: 20px;
 }
 
 footer {
@@ -86,7 +101,7 @@ footer {
 #navigation {
 	float: right;
 	margin-top: 30px;
-	margin-right: 60px;
+	margin-right: 150px;
 	font-size: 20px;
 	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -110,7 +125,7 @@ footer {
 	max-width: 650px;
 	margin-left: 150px;
 	padding: 20px;
-	border: 3px solid #dddddd;
+	border: 1px solid #dddddd;
 	background: white;
 }
 
@@ -126,13 +141,14 @@ h2 {
 p {
 	text-orientation: wrap;
 	padding: 20px;
-	color: gray;
+	color: #777777;
+	line-height: 20px;
 }
 
 #connect {
 	float: right;
 	text-align: center;
-	border: 3px solid #dddddd;
+	border: 1px solid #dddddd;
 	margin-bottom: 20px;
 	margin-right: 150px;
 	padding: 20px;
@@ -160,10 +176,17 @@ p {
 	margin-left: 10px;
 }
 
+
+/*
+label {
+	padding-top: 25px;
+}*/
+
 input[type=text] {
-    width: 650px;
+    width: 636px;
     padding: 12px 20px;
-    margin: 4px 2px;
+    margin-top: 2px;
+    margin-bottom: 15px;
     box-sizing: border-box;
 }
 
@@ -177,6 +200,7 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+    margin-bottom: 10px;
 }
 
 input[type=submit] {
